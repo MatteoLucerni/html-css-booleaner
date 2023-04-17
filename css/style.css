@@ -17,9 +17,11 @@ header{
 }
 
 .logo-img{
+    padding-top: 15px;
+    padding-bottom: 15px;
     height: 100%;
     width: 30%;
-    margin-left: 150px;
+    margin-left: 95px;
 }
 
 main{
