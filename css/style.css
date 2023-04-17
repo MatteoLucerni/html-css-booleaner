@@ -23,6 +23,7 @@ header{
 
 main{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 article{
@@ -40,4 +41,25 @@ img{
 
 .desc-imgs{
     font-size: 9px;
+}
+
+.ul-lorem{
+    margin-left: 18px;
+}
+
+thead{
+    color: white;
+    background-color: rgb(0, 195, 255);
+}
+
+th{
+    text-align: left;
+}
+
+th, td{
+    min-width: 250px;
+}
+
+.bg-azure{
+    background-color: rgb(181, 226, 247);
 }
