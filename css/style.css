@@ -63,3 +63,25 @@ th, td{
 .bg-azure{
     background-color: rgb(181, 226, 247);
 }
+
+h3{
+    color: gray;
+}
+
+.footer-img1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 210px;
+}
+.footer-img2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    height: 210px;
+}
+
+h4{
+    font-size: 25px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+}
