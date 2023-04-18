@@ -19,9 +19,7 @@ header{
 .logo-img{
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 100%;
-    width: 30%;
-    margin-left: 95px;
+    height: 80px;
 }
 
 main{
@@ -31,6 +29,15 @@ main{
 
 article{
     color: gray;
+}
+
+h1{
+    font-size: 40px;
+}
+
+a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
 }
 
 img{
@@ -46,24 +53,29 @@ img{
 }
 
 .ul-lorem{
-    margin-left: 18px;
+    margin-inline-start: 0;
+    list-style-position: inside;
 }
 
 thead{
     color: white;
-    background-color: rgb(0, 195, 255);
 }
 
 th{
     text-align: left;
+    background-color: rgb(0, 132, 255);
+}
+
+tr{
+    background-color:  rgb(151, 239, 255);
 }
 
 th, td{
     min-width: 250px;
 }
 
-.bg-azure{
-    background-color: rgb(181, 226, 247);
+tr:nth-child(even){
+    background-color: white;
 }
 
 h3{
